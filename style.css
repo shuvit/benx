@@ -1,0 +1,77 @@
+body {
+  background: #333;
+  margin:0;
+}
+body h3 {
+  font-family: "URW Gothic";
+  font-size: 34px;
+}
+.logo {
+  background-image: url(logobg1.png);
+  background-size: cover;
+}
+.logo img {
+  padding: 1em 1em 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.topbar {
+  text-align: right;
+  background-color: #c17d30;
+  padding: 0;
+}
+
+.topbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  columns: 6;
+  font-family: "URW Gothic";
+
+}
+.topbar li {
+  font-size: 20px;
+}
+.cards {
+  font-family: "URW Gothic";
+  color: #e1d8c0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards div {
+  flex: 300px 300px 300px;
+  padding: 1em;
+  margin: 1em;
+  margin-top: 2em;
+  height: 400px;
+  width: 300px;
+}
+.cards h3 {
+  text-align: center;
+  padding:0;
+  margin:0;
+
+}
+.torsdag {
+  background-image: url(bar3.png);
+  background-size: cover;
+  background-position: right;
+}
+.fredag {
+  background: url(image.png);
+  background-size: cover;
+}
+.lørdag {
+  background-image: url(bar2.png);
+  background-size: cover;
+}
+
+.bottombar {
+  font-family: verdana;
+  background-color: #c17d30;
+  padding: 1em;
+  text-align: center;
+}
