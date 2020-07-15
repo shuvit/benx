@@ -51,9 +51,9 @@ a:link, a:visited {
   list-style: none;
   justify-content: center;
   width: 100%;
+  flex-wrap: wrap;
   margin: 0;
   padding: 1em;
-  columns: 6;
   font-family: "Gothic A1", sans-serif;
 }
 .topbar ul li {
