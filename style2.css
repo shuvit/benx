@@ -44,7 +44,7 @@ a:link, a:visited {
 .topbar {
   display:flex;
   width: 100%;
-  background-color: #c17d30;
+  background-color: #6f2424;
 }
 .topbar ul {
   display:flex;
@@ -79,9 +79,9 @@ a:link, a:visited {
   padding: 1em;
   margin: 1em;
   margin-top: 2em;
+  background-color: #501f1f;
   height: 400px;
   width: 300px;
-  background-color: #744b1d;
   box-shadow: 5px 5px 10px #000;
 }
 .cards h3 {
@@ -111,7 +111,7 @@ a:link, a:visited {
 .bottombar {
   display: flex;
   font-family: "Gothic A1", sans-serif;
-  background-color: #c17d30;
+  background-color: #6f2424;
   width: 100%;
   padding: 0;
   margin: 0;
