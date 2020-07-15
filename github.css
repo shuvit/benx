@@ -45,6 +45,7 @@ a:link, a:visited {
   display:flex;
   width: 100%;
   background-color: #c17d30;
+  flex-wrap: wrap;
 }
 .topbar ul {
   display:flex;
