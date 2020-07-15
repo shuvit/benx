@@ -93,22 +93,34 @@ a:link, a:visited {
 .cards a:hover, a:active {
   color: skyblue;
 }
+.cards a {
+  display: flex;
+  align-self: bottom;
+}
 
 .torsdag {
   background-image: url(bar3.png);
-  background-size: cover;
-  background-position: right;
-  padding-top: 1em;
+  background-repeat: no-repeat;
+  background-position: 0 70px;
+  background-size: contain;
+
 }
 .fredag {
   background: url(image.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /**background-size: cover;**/
+  background-position: 0 70px;
 }
 .lørdag {
   background-image: url(bar2.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 70px;
+  background-size: contain;
 }
+.btn {
 
+}
 .bottombar {
   display: flex;
   font-family: "Gothic A1", sans-serif;

@@ -108,7 +108,14 @@ a:link, a:visited {
   background-image: url(bar2.png);
   background-size: cover;
 }
-
+.meldpå {
+  font-family: "Gothic A1", sans-serif;
+  color: #e1d8c0;
+  display: flex;
+  width: 80%;
+  padding: 1em;
+  justify-content: center;
+}
 .bottombar {
   display: flex;
   font-family: "Gothic A1", sans-serif;

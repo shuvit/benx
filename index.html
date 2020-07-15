@@ -46,21 +46,46 @@
   <div class="cards">
     <div class="torsdag">
       <h3>torsdagsquiz</h3>
-      <p>Torsdager arrangerer vi en mer tradisjonell quiz med roligere tempo og stemning.</p><br>
-      <a href="xx" class="btn">meld på lag</a>
+      <p>Torsdager arrangerer vi en mer tradisjonell quiz med roligere tempo og stemning.</p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a href="#meldpå" class="btn">meld på lag</a>
     </div>
     <div class="fredag">
       <h3>fredagsquiz</h3>
       <p>Fredager braker det løs med actionfylt quiz, høyt under taket og fest. Her kommer
-        klassikerne på rekke og rad og shoutouts på løpende band!</p><br>
-      <a href="xx" class="btn">meld på lag</a>
+        klassikerne på rekke og rad og shoutouts på løpende band!</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+      <a href="#meldpå" class="btn">meld på lag</a>
     </div>
     <div class="lørdag">
       <h3>lørdag</h3>
-      <p>Lørdag er business as usual, vi ønsker deg velkommen til god stemning på benkene våre.</p><br>
-      <a href="xx" class="btn">reserver plass</a>
+      <p>Lørdag er business as usual, vi ønsker deg velkommen til god stemning på benkene våre.</p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a href="#meldpå" class="btn">reserver plass</a>
     </div>
   </div>
+  <div class="meldpå">
+    <form>
+      <label for="fnavn">Fornavn:</label></br>
+      <input type="text" id="fnavn" name="fnavn"><br>
+      <label for="enavn">Etternavn:</label></br>
+      <input type="text" id="enavn" name="enavn"><br>
+      <p>Hvor mange blir dere på laget?</p>
+      <select id="antallLag" name="antallLag">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select><br>
+      <input type="radio" id="torsdag" navn="hvilkenDag" value="torsdag">
+      <label for="torsdag">torsdagsquiz</label><br>
+      <input type="radio" id="fredag" navn="hvilkenDag" value="fredag">
+      <label for="torsdag">fredagsquiz</label><br>
+      <input type="submit" value="Send">
+    </form>
+</div>
   <div class="bottombar">
     <ul>
       <li>All rights reserved: Jostein Hauge & Øyvind Orre</li>
